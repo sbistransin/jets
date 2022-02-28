@@ -1,6 +1,6 @@
-class Rocket {
+var Rocket = function (color, size) {
+  this.color = color;
+  this.size = size;
+};
 
-  constructor(name) {
-    this.name = name;
-  }
-}
+module.exports = Rocket;
